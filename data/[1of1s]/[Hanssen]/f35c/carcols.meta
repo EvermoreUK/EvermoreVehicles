@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    
+<CVehicleModelInfoVarGlobal>
+  <Kits>
+	<Item>
+      <kitName>949_f35c_modkit</kitName>
+      <id value="949" />
+      <kitType>MKT_SPECIAL</kitType>
+      <visibleMods>
+        <Item>
+          <modelName>aim935_left</modelName>
+          <modShopLabel>sidewinder35_mod</modShopLabel>
+          <linkedModels>
+		    		<Item>aim935_right</Item>
+          </linkedModels>
+		  <turnOffBones />
+          <type>VMT_SPOILER</type>
+          <bone>mod_p</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot value="3" />
+		 </Item>
+		 <Item>
+          <modelName>sdbm_left</modelName>
+          <modShopLabel>sdbm_mod</modShopLabel>
+          <linkedModels>
+		    		<Item>sdbm_right</Item>
+          </linkedModels>
+		  <turnOffBones />
+          <type>VMT_BUMPER_F</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="100" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot value="4" />
+		 </Item>
+		 <Item>
+          <modelName>amraam35_left</modelName>
+          <modShopLabel>vmt_amraam</modShopLabel>
+          <linkedModels>
+		    		<Item>amraam35_right</Item>
+          </linkedModels>
+		  <turnOffBones />
+          <type>VMT_BUMPER_F</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="100" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>jdam35_left</modelName>
+          <modShopLabel>vmt_jdam</modShopLabel>
+          <linkedModels>
+		    		<Item>jdam35_right</Item>
+          </linkedModels>
+		  <turnOffBones />
+          <type>VMT_BUMPER_F</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="100" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>f35_hookdoors</modelName>
+          <modShopLabel>vmt_hookdoors</modShopLabel>
+          <linkedModels />
+		  <turnOffBones>
+		    		<Item>mod_h</Item>
+					<Item>mod_i</Item>
+          </turnOffBones>
+          <type>VMT_BUMPER_R</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="100" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>f35_nozzle_idle</modelName>
+          <modShopLabel>nozzle_mod</modShopLabel>
+          <linkedModels />
+		  <turnOffBones>
+		    		<Item>mod_n</Item>
+          </turnOffBones>
+          <type>VMT_EXHAUST</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>f35_nozzle_stage1</modelName>
+          <modShopLabel>nozzle_mod</modShopLabel>
+          <linkedModels />
+		  <turnOffBones>
+		    		<Item>mod_n</Item>
+          </turnOffBones>
+          <type>VMT_EXHAUST</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>f35_nozzle_stage2</modelName>
+          <modShopLabel>nozzle_mod</modShopLabel>
+          <linkedModels />
+		  <turnOffBones>
+		    		<Item>mod_n</Item>
+          </turnOffBones>
+          <type>VMT_EXHAUST</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>f35_nozzle_stage3</modelName>
+          <modShopLabel>nozzle_mod</modShopLabel>
+          <linkedModels />
+		  <turnOffBones>
+		    		<Item>mod_n</Item>
+          </turnOffBones>
+          <type>VMT_EXHAUST</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>f35_nozzle_stage4</modelName>
+          <modShopLabel>nozzle_mod</modShopLabel>
+          <linkedModels />
+		  <turnOffBones>
+		    		<Item>mod_n</Item>
+          </turnOffBones>
+          <type>VMT_EXHAUST</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>f35_nozzle_stage5</modelName>
+          <modShopLabel>nozzle_mod</modShopLabel>
+          <linkedModels />
+		  <turnOffBones>
+		    		<Item>mod_n</Item>
+          </turnOffBones>
+          <type>VMT_EXHAUST</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>f35_nozzle_stage6</modelName>
+          <modShopLabel>nozzle_mod</modShopLabel>
+          <linkedModels />
+		  <turnOffBones>
+		    		<Item>mod_n</Item>
+          </turnOffBones>
+          <type>VMT_EXHAUST</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>f35_nozzle_stage7</modelName>
+          <modShopLabel>nozzle_mod</modShopLabel>
+          <linkedModels />
+		  <turnOffBones>
+		    		<Item>mod_n</Item>
+          </turnOffBones>
+          <type>VMT_EXHAUST</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>f35_nozzle_stage8</modelName>
+          <modShopLabel>nozzle_mod</modShopLabel>
+          <linkedModels />
+		  <turnOffBones>
+		    		<Item>mod_n</Item>
+          </turnOffBones>
+          <type>VMT_EXHAUST</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>f35_nozzle_stage9</modelName>
+          <modShopLabel>nozzle_mod</modShopLabel>
+          <linkedModels />
+		  <turnOffBones>
+		    		<Item>mod_n</Item>
+          </turnOffBones>
+          <type>VMT_EXHAUST</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>f35_towbar</modelName>
+          <modShopLabel>towbar_mod</modShopLabel>
+          <linkedModels />
+		  <turnOffBones>
+		    		<Item>mod_a</Item>
+          </turnOffBones>
+          <type>VMT_CHASSIS</type>
+          <bone>mod_b</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="100" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+      </visibleMods>
+	  <linkMods>
+		<Item>
+          <modelName>aim935_right</modelName>
+          <bone>mod_o</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>sdbm_right</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>amraam35_right</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>jdam35_right</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+	  </linkMods>
+      <slotNames>      
+       <Item>
+          <slot>VMT_SPOILER</slot>
+          <name>vmt_f35armament</name>
+        </Item>
+		<Item>
+          <slot>VMT_BUMPER_F</slot>
+          <name>vmt_f35armament2</name>
+        </Item>
+		<Item>
+          <slot>VMT_BUMPER_R</slot>
+          <name>vmt_hookdoors</name>
+        </Item>
+		<Item>
+          <slot>VMT_EXHAUST</slot>
+          <name>vmt_nozzle</name>
+        </Item>
+		<Item>
+          <slot>VMT_CHASSIS</slot>
+          <name>towbar_mod</name>
+        </Item>
+      </slotNames>
+      <statMods>
+        <Item>
+          <identifier />
+          <modifier value="25" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ENGINE</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="50" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ENGINE</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="75" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ENGINE</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="100" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ENGINE</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="25" />
+          <audioApply value="1.000000" />
+          <weight value="5" />
+          <type>VMT_BRAKES</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="65" />
+          <audioApply value="1.000000" />
+          <weight value="5" />
+          <type>VMT_BRAKES</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="100" />
+          <audioApply value="1.000000" />
+          <weight value="5" />
+          <type>VMT_BRAKES</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="20" />
+          <audioApply value="1.000000" />
+          <weight value="0" />
+          <type>VMT_ARMOUR</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="40" />
+          <audioApply value="1.000000" />
+          <weight value="10" />
+          <type>VMT_ARMOUR</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="60" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ARMOUR</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="80" />
+          <audioApply value="1.000000" />
+          <weight value="30" />
+          <type>VMT_ARMOUR</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="100" />
+          <audioApply value="1.000000" />
+          <weight value="40" />
+          <type>VMT_ARMOUR</type>
+        </Item>  
+      </statMods>
+      <slotNames>      
+        <Item>
+          <slot>VMT_SPOILER</slot>
+          <name>vmt_f35armament</name>
+        </Item>
+		<Item>
+          <slot>VMT_BUMPER_F</slot>
+          <name>vmt_f35armament2</name>
+        </Item>
+		<Item>
+          <slot>VMT_EXHAUST</slot>
+          <name>vmt_nozzle</name>
+        </Item>
+		<Item>
+          <slot>VMT_CHASSIS</slot>
+          <name>towbar_mod</name>
+        </Item>
+      </slotNames>
+      <liveryNames />
+    </Item>
+  </Kits> 
+    <Lights />
+</CVehicleModelInfoVarGlobal>

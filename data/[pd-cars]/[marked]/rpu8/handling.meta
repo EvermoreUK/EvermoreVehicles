@@ -1,0 +1,58 @@
+﻿<CHandlingDataMgr>
+    <HandlingData>
+        <Item type="CHandlingData">
+            <handlingName>rpu8</handlingName>
+            <fMass value="1100.000000" /> <!-- Reduced mass for better handling -->
+            <fInitialDragCoeff value="9.000000" /> <!-- Reduced drag coefficient for better speed -->
+            <fPercentSubmerged value="85.000000" />
+            <vecCentreOfMassOffset x="0.000000" y="0.000000" z="0.000000" />
+            <vecInertiaMultiplier x="1.000000" y="1.400000" z="1.200000" />
+            <fDriveBiasFront value="0.000000" />
+            <nInitialDriveGears value="6" /> <!-- Increased number of gears for smoother acceleration -->
+            <fInitialDriveForce value="0.500000" /> <!-- Increased initial drive force for better acceleration -->
+            <fDriveInertia value="1.000000" />
+            <fClutchChangeRateScaleUpShift value="3.000000" /> <!-- Increased clutch change rate for faster gear shifts -->
+            <fClutchChangeRateScaleDownShift value="3.000000" /> <!-- Increased clutch change rate for faster gear shifts -->
+            <fInitialDriveMaxFlatVel value="160.000000" /> <!-- Increased top speed -->
+            <fBrakeForce value="1.200000" /> <!-- Increased brake force for better stopping power -->
+            <fBrakeBiasFront value="0.500000" /> <!-- Balanced brake bias for stability during braking -->
+            <fHandBrakeForce value="0.800000" /> <!-- Increased handbrake force for better drifting control -->
+            <fSteeringLock value="50.000000" /> <!-- Increased steering lock for better maneuverability -->
+            <fTractionCurveMax value="2.800000" /> <!-- Increased traction for better grip -->
+            <fTractionCurveMin value="2.600000" /> <!-- Increased traction for better grip -->
+            <fTractionCurveLateral value="30.000000" /> <!-- Increased lateral traction for better cornering -->
+            <fTractionSpringDeltaMax value="0.200000" /> <!-- Increased traction spring delta for smoother handling -->
+            <fLowSpeedTractionLossMult value="0.800000" /> <!-- Reduced traction loss at low speeds -->
+            <fTractionBiasFront value="0.500000" /> <!-- Balanced traction bias for stability -->
+            <fSuspensionForce value="2.500000" /> <!-- Balanced suspension force for stability -->
+            <fSuspensionCompDamp value="1.500000" /> <!-- Increased compression damping for better handling -->
+            <fSuspensionReboundDamp value="2.000000" /> <!-- Increased rebound damping for better handling -->
+            <fSuspensionUpperLimit value="0.100000" /> <!-- Increased suspension upper limit for better off-road performance -->
+            <fSuspensionLowerLimit value="-0.120000" /> <!-- Increased suspension lower limit for better off-road performance -->
+            <fSuspensionBiasFront value="0.500000" /> <!-- Balanced suspension bias for stability -->
+            <fAntiRollBarForce value="1.200000" /> <!-- Increased anti-roll bar force for better stability -->
+            <fAntiRollBarBiasFront value="0.500000" /> <!-- Balanced anti-roll bar bias for stability -->
+            <fRollCentreHeightFront value="0.300000" /> <!-- Lowered roll center height for better stability -->
+            <fRollCentreHeightRear value="0.300000" /> <!-- Lowered roll center height for better stability -->
+            <fCollisionDamageMult value="0.500000" /> <!-- Reduced collision damage for increased durability -->
+            <fEngineDamageMult value="1.300000" /> <!-- Increased engine damage multiplier for increased durability -->
+            <fPetrolTankVolume value="80.000000" /> <!-- Increased petrol tank volume for longer drives -->
+            <fOilVolume value="7.000000" /> <!-- Increased oil volume for longer drives -->
+            <fSeatOffsetDistY value="0.050000" /> <!-- Adjusted seat offset for better driver positioning -->
+            <nMonetaryValue value="200000" /> <!-- Adjusted monetary value to reflect improved performance -->
+            <strModelFlags>440010</strModelFlags>
+            <strHandlingFlags>0</strHandlingFlags>
+            <strDamageFlags>0</strDamageFlags>
+            <AIHandling>SPORTS_CAR</AIHandling>
+            <SubHandlingData>
+                <Item type="CCarHandlingData">
+                    <fBackEndPopUpCarImpulseMult value="0.150000" /> <!-- Increased back-end pop-up impulse for better handling -->
+                    <fBackEndPopUpBuildingImpulseMult value="0.050000" /> <!-- Increased back-end pop-up impulse for better handling -->
+                    <fBackEndPopUpMaxDeltaSpeed value="0.800000" /> <!-- Increased back-end pop-up maximum delta speed for better handling -->
+                </Item>
+                <Item type="NULL" />
+                <Item type="NULL" />
+            </SubHandlingData>
+        </Item>
+    </HandlingData>
+</CHandlingDataMgr>
