@@ -1,0 +1,306 @@
+SUPER
+
+one1 = Koenigsegg - working
+
+lambov10 = Audi R8 V10, Lamborghini Huracan & Lamborghini Gallardo models - working
+
+m158huayra = Pagani Huayra models - check on restart
+
+gt3flat6 = Porsche GT3 models - working
+
+m297zonda = Pagani Zonda models- working
+
+aventadorv12 = Lambos/Ferraris V12 - working muffled
+
+cw2019 = Generic Non Turbo - working
+
+ecoboostv6 = Ford GT - working
+
+f40v8 = Ferrari F40 - working
+
+f136 = Ferrari 360 - working shit sound
+
+huracanv10 = Lambo Hurracan V10 - working shit sound
+
+lfasound = Lexus LFA - working
+
+m155slr = McLaren SLR - working supercharger
+
+m840t = McLaren Senna - working
+
+monroec = Ariel Atom - working
+
+porschema2 = Porsche - working turbo
+
+shonen = Generic Super Car - working
+
+svjsound = Lamborghini SVJ - working
+
+ta488f154 = Ferrari 488 Tributo - working nice for jesko 
+
+viperv10 = Dodge Viper - working shit sound
+
+diablov12 = Lamboghini V12 - working
+
+ferrarif12 = Ferrari V12 Ferrari F12 - working shit sound
+
+f50v12 = Ferrari V12 Ferrari F50 - working
+
+murciev12 = V12 Generic - working
+
+ea825 = Audi R8 V8 - working
+
+aqm275amg = Mercedes V12 - working
+
+tagt3flat6 = Porsche GT3, 911, GT3RS, GT2 - working
+
+aston59v12 = Aston Martin / V12 / DB7/ DB9/ Vantage / Vanquish - working
+
+lg30meramgtr = amg gtr v12 - working
+
+lg62chironpursport = Bugatti Pursport - working
+
+audr8tteng = Audi V10 Twin Turbo - working
+
+lg67koagerars - Koenigsegg Agera RS - working
+
+mcp1eng - McLaren P1 - working
+
+lg91timreg - Koenigsegg Regera - working
+
+ta023l539 - Lamboghini Aventador
+
+amg1eng - Mercedes amg one - working shit sound
+
+porsche57v10 - Porsche Carrera V10 - working
+
+cw2019 - generic supercar - working
+
+lg86fer812sf - Ferrari 812 SF
+
+pgzonreng - Pagani Zonda
+
+pursport - Bugatti Pursport - check on restart
+
+talam52v10 - Generic sound 
+
+aq46forgtebv6 - genuine ford 3.5 ecoboost - check on restart
+
+aq48roln72v12 - Rolls Royce V12 - check on restart
+
+aq40benw12tt - Bentley W12 - check on restart
+
+F136 - ferrari
+
+bcontinentalgt - nice pops and bangs
+
+aq62merm156 - Merc amg
+
+kc159i6mgerman - new sound (unknown yet)
+
+
+SKYLINE/EVO/SUBARU/SUPRA
+
+toysupmk4 = Toyota Supra Mk4 (A80) models, or anything with a 2JZ-GTE.
+
+rb26dett = Nissan Skyline GT-R (R32/R33/R34) models, or anything with an RB26DETT
+
+rotary7 = Mazda RX7 (FD) models, or anything with a turbocharged rotary
+
+aq2jzgterace = Supra/skyline
+
+aqtoy2jzstock = Supra/skyline/evo
+
+b58b30 = EVO/Supra/Subari
+
+ej257 = Supra/skyline
+
+elegyx = R35 skyline
+
+evoixsound = EVOs (loud)
+
+subaruej20 = Subaru
+
+subaruej257 = Subaru
+
+n4g63t = Evo 
+
+nisgtr35 = Nissan GTR/ R35
+
+r34sound = Nissan GTRs
+
+r35sound = Nissan GTRs (LOUD)
+
+s15sound = Nissan Silva
+
+aq14nisvq37vhrt - Nissan 370z
+
+bnr34ffeng - R34/skyline
+
+lgcy00vr6 - generic throaty sound
+
+ta011mit4g63 - Mitsubishi Eclipse
+
+nsr2teng - Nissan R20DET
+
+
+
+BMW/MERCEDES/AUDI
+
+brabus850 = Mercedes
+
+cvpiv8 = Non Turbo
+
+f10m5 = BMW 5 series
+
+f20c = BMW 1 series
+
+m5cracklemod = BMW M5 Crackle
+
+fordvoodoo = V8s
+
+ftypesound = Jaguar/Audi/BMW/MERC
+
+lg18bmwm4 = BMW M3/M4/M5/M6
+
+npolchar = BMW M3/M4/M5/M6
+
+s54b32 = OLD BMWs
+
+s85b50 = BMW M5/M6/M8
+
+s85b50b = BMW M5/M6/M8
+
+sentinelsg4 = BMW M3 E46
+
+w211 = Mercedes E Class
+
+n55b30t0 = BMW M2/M3/M4
+
+s55b30 = BMW M2/M3/M4 (Crackle)
+
+s85b50 = BMW M5/M6 V10
+
+ea825 = Audi RS6 V8
+
+aqm275amg = Merecedes V12
+
+mercm177 = Mercedes C63 AMG V8 (dirty sound)
+
+taaud40v8 = Audi RS4,RS5,RS6,RS7 / V8
+
+v6audiea839 = Audi RS5, RS6 / V6
+
+s65b40 = BMW E92 M3 / M4
+
+alfa690t = Alfa Romeo
+
+audirs4milltekeng - Audi RS4 miltek exhaust
+
+lg18bmwm4 - BMW M3/M4/M5- working
+
+kc31m3gtr - BMW E46 GTR 
+
+aq62merm156 - Mercedes AMG 63 V8 - nice sound
+
+ars6c8avant - RS6 sound - mad pops and bangs
+
+
+HATCHBACK
+
+k20a = 2001-2011 Honda Type R models.
+
+argento = Turbo hatchbacks RS3/GOLF R/Focus RS
+
+ariant = Honda Civic/ Normal Hatchback
+
+ftypesound = RS3/M140i/A45/FocusRS Crackle
+
+aq21honb16a = Honda civic / Basic hatchback
+
+n55b30t0 = BMW 1 series/ 2 series 
+
+s55b30 = BMW 1 series / 2 series (crackle)
+
+ea888 = Golf GTI/ POLO GTI VW/AUDI
+
+audi7a = Audi TT / A1/ A3/ RS1 / RS3
+
+audiea855 = Audi TT / A1 / A3 / RS1 / RS3
+
+b58b30 = BMW 1 series / 2 series / M140i / M240i 
+
+alfa690t = Alfa Romeo
+
+f20c - Honda/s2000
+
+aq09mazbpze - Mazda 1.8 MX5
+
+kc42brz14 - Toyota BRZ
+
+MUSCLE
+
+predatorv8 = Mustangs/Cameros/Challengers
+
+musv8 = Anything resembling a dragster or has a dragster v8 engine.
+
+cvpiv8 = Muscle Cars
+
+demonv8 = Demon V8s
+
+fordvoodoo = Mustangs
+
+hemisound = Hemi/Demon/Challenger/Mustang
+
+m155slr = Supercharger
+
+npolchar = Charger/Mustang
+
+w211 = Generic SuperCharger Muscle
+
+chevroletlt4 = Camero, challenger, charger, 
+
+lg81hcredeye - Demon V8 supercharger
+
+aq07powerstroke67 - dont bother using
+
+lg68ls3vette - LS3 V8 Corvette
+
+lg88camstang - Cammed V8 mustang
+
+lg52musgt500v8 - Ford Mustang Shelby Gt 500
+
+tamustanggt50 - Mustang Gt
+
+cammedcharger - Cammed V8 charger
+
+SUV
+
+fordvoodoo = RangerRover V8 SUVs
+
+hemisound = Hemi/DemonHawk/JeepTrackHawk
+
+porschema2 = Porsche SUVs
+
+s85b50 = BMW X5/X7/X9
+
+s85b50b = BMW X5/X7/X9
+
+w211 = Generic Supercharger SUV
+
+aq02coyotef150 = F150 PickUp/ V8
+
+lg51uruscapri - Lambo Urus
+
+
+BIKE
+
+p60b40 = scooters
+
+skart = Basic Motorbike / GOKart
+
+suzukigsxr1k = Suzuki GSXR
+
+Kawasaski - ta103ninjah2r
+
+lgcyc00qbike700 - Quadbike
