@@ -6,7 +6,7 @@
      <Item>
       <modelName>vwpolo</modelName>
       <txdName>vwpolo</txdName>
-      <handlingId>vwpolo</handlingId>
+      <handlingId>blista</handlingId>
       <gameName>vwpolo</gameName>
       <vehicleMakeName>Mercedes-Benz</vehicleMakeName>
       <expressionDictName>null</expressionDictName>
@@ -15,7 +15,7 @@
       <animConvRoofName>null</animConvRoofName>
       <animConvRoofWindowsAffected />
       <ptfxAssetName>null</ptfxAssetName>
-      <audioNameHash>COMET2</audioNameHash>
+      <audioNameHash>blista</audioNameHash>
       <layout>LAYOUT_LOW</layout>
       <coverBoundOffsets>SENTINEL_COVER_OFFSET_INFO</coverBoundOffsets>
       <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
