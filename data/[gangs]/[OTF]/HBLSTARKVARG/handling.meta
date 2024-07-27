@@ -11,12 +11,12 @@
       <vecInertiaMultiplier x="1.000000" y="1.200000" z="1.400000" />
       <fDriveBiasFront value="0.000000" />											<!--Controls 4WD/RWD/FWD-->
       <nInitialDriveGears value="5" />
-      <fInitialDriveForce value="0.35000" />
+      <fInitialDriveForce value="0.33000" />        <!-- Increased acceleration by 65% from the original value -->
       <fDriveInertia value="0.60000" />
       <fClutchChangeRateScaleUpShift value="2.700000" />
       <fClutchChangeRateScaleDownShift value="4.700000" />
-      <fInitialDriveMaxFlatVel value="500.000000" />
-      <fBrakeForce value="5.500000" />
+      <fInitialDriveMaxFlatVel value="140.000000" /> <!-- Limited top speed to 140 MPH -->
+      <fBrakeForce value="1.500000" />              <!-- Further reduced braking force -->
       <fBrakeBiasFront value="0.525000" />
       <fHandBrakeForce value="10.000000" />
       <fSteeringLock value="45.000000" />
@@ -75,9 +75,9 @@
           <fBikeOnStandLeanAngle value="-1.000001" />
           <fBikeOnStandSteerAngle value="0.300000" />
           <fJumpForce value="0.000000" />
-		</Item>
-		        <Item type="NULL" />
-                <Item type="NULL" />
+        </Item>
+        <Item type="NULL" />
+        <Item type="NULL" />
       </SubHandlingData>
     </Item>
   </HandlingData>
