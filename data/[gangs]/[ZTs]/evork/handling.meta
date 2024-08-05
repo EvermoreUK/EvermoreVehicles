@@ -5,45 +5,46 @@
   <HandlingData>
     <Item type="CHandlingData">
       <handlingName>evork</handlingName>
-      <fMass value="1300.000000" />
-      <fInitialDragCoeff value="8.500000" />
+      <fMass value="1800.000000" /> <!-- Increased mass for enhanced stability -->
+      <fInitialDragCoeff value="6.500000" /> <!-- Reduced drag coefficient -->
       <fPercentSubmerged value="85.000000" />
-      <vecCentreOfMassOffset x="0.000000" y="0.000000" z="0.000000" />
-      <vecInertiaMultiplier x="1.000000" y="1.600000" z="1.600000" />
+      <vecCentreOfMassOffset x="0.000000" y="0.000000" z="-0.500000" /> <!-- Lowered center of mass significantly -->
+      <vecInertiaMultiplier x="1.000000" y="0.700000" z="1.000000" /> <!-- Reduced inertia for better control -->
       <fDriveBiasFront value="0.000000" />
       <nInitialDriveGears value="6" />
-      <fInitialDriveForce value="0.4800000" />
-      <fDriveInertia value="1.000000" />
-      <fClutchChangeRateScaleUpShift value="3.000000" />
-      <fClutchChangeRateScaleDownShift value="3.000000" />
-      <fInitialDriveMaxFlatVel value="300.000000" />
-      <fBrakeForce value="2.900000" />
+      <fInitialDriveForce value="1.000000" /> <!-- Increased drive force for better acceleration -->
+      <fDriveInertia value="0.700000" /> <!-- Adjusted drive inertia for better acceleration response -->
+      <fClutchChangeRateScaleUpShift value="5.500000" /> <!-- Improved shifting responsiveness -->
+      <fClutchChangeRateScaleDownShift value="5.500000" />
+      <fInitialDriveMaxFlatVel value="67.056000" /> <!-- Top speed set to 150 MPH -->
+      <fReverseGearRatio value="1.500000" /> <!-- Reverse speed adjusted to realistic value -->
+      <fBrakeForce value="4.500000" /> <!-- Increased braking force -->
       <fBrakeBiasFront value="0.425000" />
-      <fHandBrakeForce value="0.600000" />
-      <fSteeringLock value="40.000000" />
-      <fTractionCurveMax value="2.600000" />
-      <fTractionCurveMin value="2.450000" />
-      <fTractionCurveLateral value="22.500000" />
+      <fHandBrakeForce value="1.500000" /> <!-- Improved handbrake force -->
+      <fSteeringLock value="35.000000" /> <!-- Adjusted steering lock for better high-speed turning -->
+      <fTractionCurveMax value="5.000000" /> <!-- Increased traction -->
+      <fTractionCurveMin value="4.800000" /> <!-- Increased minimum traction -->
+      <fTractionCurveLateral value="35.000000" /> <!-- Improved lateral traction -->
       <fTractionSpringDeltaMax value="0.150000" />
-      <fLowSpeedTractionLossMult value="0.600000" />
+      <fLowSpeedTractionLossMult value="0.100000" /> <!-- Reduced low-speed traction loss -->
       <fCamberStiffnesss value="0.000000" />
       <fTractionBiasFront value="0.485000" />
-      <fTractionLossMult value="1.000000" />
-      <fSuspensionForce value="2.600000" />
-      <fSuspensionCompDamp value="2.400000" />
-      <fSuspensionReboundDamp value="2.200000" />
-      <fSuspensionUpperLimit value="0.050000" />
-      <fSuspensionLowerLimit value="-0.0800000" />
-      <fSuspensionRaise value="-0.010000" />
-      <fSuspensionBiasFront value="0.490000" />
-      <fAntiRollBarForce value="0.800000" />
+      <fTractionLossMult value="0.300000" /> <!-- Reduced overall traction loss -->
+      <fSuspensionForce value="5.000000" /> <!-- Increased suspension force for better stability -->
+      <fSuspensionCompDamp value="4.000000" /> <!-- Increased compression damping -->
+      <fSuspensionReboundDamp value="5.000000" /> <!-- Increased rebound damping -->
+      <fSuspensionUpperLimit value="0.100000" />
+      <fSuspensionLowerLimit value="-0.150000" />
+      <fSuspensionRaise value="0.000000" />
+      <fSuspensionBiasFront value="0.500000" />
+      <fAntiRollBarForce value="3.000000" /> <!-- Increased anti-roll bar force to prevent flipping -->
       <fAntiRollBarBiasFront value="0.550000" />
-      <fRollCentreHeightFront value="0.180000" />
-      <fRollCentreHeightRear value="-0.150000" />
-      <fCollisionDamageMult value="0.700000" />
+      <fRollCentreHeightFront value="0.500000" /> <!-- Adjusted roll center height for better balance -->
+      <fRollCentreHeightRear value="0.500000" /> <!-- Adjusted roll center height for better balance -->
+      <fCollisionDamageMult value="0.500000" /> <!-- Reduced collision damage multiplier -->
       <fWeaponDamageMult value="1.000000" />
-      <fDeformationDamageMult value="0.700000" />
-      <fEngineDamageMult value="1.500000" />
+      <fDeformationDamageMult value="0.500000" /> <!-- Reduced deformation damage multiplier -->
+      <fEngineDamageMult value="1.000000" /> <!-- Reduced engine damage multiplier -->
       <fPetrolTankVolume value="65.000000" />
       <fOilVolume value="5.000000" />
       <fSeatOffsetDistX value="0.100000" />
