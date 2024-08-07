@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CHandlingDataMgr>
+  <HandlingData>
+    <Item type="CHandlingData">
+      <handlingName>reblamne</handlingName>
+      <fMass value="1800.000000" /> <!-- Reduced mass for better acceleration and handling -->
+      <fInitialDragCoeff value="7.0000" /> <!-- Further reduced drag coefficient for better speed -->
+      <fPercentSubmerged value="85.000000" />
+      <vecCentreOfMassOffset x="0.000000" y="0.0000" z="0.22500" />
+      <vecInertiaMultiplier x="1.000000" y="1.50000" z="1.50000" /> <!-- Slightly reduced inertia for better turning -->
+      <fDriveBiasFront value="0.300000" /> <!-- More power to the rear wheels for better handling -->
+      <nInitialDriveGears value="6" /> <!-- Adjusting gears for better acceleration and speed -->
+      <fInitialDriveForce value="0.60000" /> <!-- Significantly increasing drive force for better acceleration -->
+      <fDriveInertia value="1.000000" />
+      <fClutchChangeRateScaleUpShift value="5.200000" /> <!-- Faster gear shifts for better acceleration -->
+      <fClutchChangeRateScaleDownShift value="5.200000" /> <!-- Faster gear shifts for better acceleration -->
+      <fInitialDriveMaxFlatVel value="155.000000" /> <!-- Setting max flat velocity to slightly above 150 MPH -->
+      <fBrakeForce value="1.200000" /> <!-- Increasing brake force for better braking -->
+      <fBrakeBiasFront value="0.500000" /> <!-- Balanced brake bias for stability -->
+      <fHandBrakeForce value="1.00000" /> <!-- Increasing handbrake force for better sharp turns -->
+      <fSteeringLock value="40.00000" /> <!-- Increasing steering lock for better turning radius -->
+      <fTractionCurveMax value="2.50000" /> <!-- Improving traction for better handling -->
+      <fTractionCurveMin value="2.30000" /> <!-- Improving traction for better handling -->
+      <fTractionCurveLateral value="22.000000" /> <!-- Increasing lateral traction for better cornering -->
+      <fTractionSpringDeltaMax value="0.150000" /> <!-- Adjusting traction spring delta -->
+      <fLowSpeedTractionLossMult value="1.000000" /> <!-- Reducing low-speed traction loss -->
+      <fCamberStiffnesss value="0.000000" />
+      <fTractionBiasFront value="0.480000" /> <!-- Slightly more rear traction bias for better handling -->
+      <fTractionLossMult value="0.3000" /> <!-- Reducing traction loss -->
+      <fSuspensionForce value="2.0000" /> <!-- Stiffer suspension for better handling -->
+      <fSuspensionCompDamp value="2.00000" /> <!-- Stiffer compression damping for better handling -->
+      <fSuspensionReboundDamp value="2.2000" /> <!-- Stiffer rebound damping for better handling -->
+      <fSuspensionUpperLimit value="0.1000" />
+      <fSuspensionLowerLimit value="-0.14000" />
+      <fSuspensionRaise value="0.020000" />
+      <fSuspensionBiasFront value="0.500000" />
+      <fAntiRollBarForce value="0.700000" /> <!-- Stronger anti-roll bar for reduced body roll -->
+      <fAntiRollBarBiasFront value="0.500000" />
+      <fRollCentreHeightFront value="0.35000" />
+      <fRollCentreHeightRear value="0.33500" />
+      <fCollisionDamageMult value="1.000000" />
+      <fWeaponDamageMult value="1.000000" />
+      <fDeformationDamageMult value="0.800000" />
+      <fEngineDamageMult value="1.500000" />
+      <fPetrolTankVolume value="80.000000" />
+      <fOilVolume value="8.000000" />
+      <fSeatOffsetDistX value="0.000000" />
+      <fSeatOffsetDistY value="0.000000" />
+      <fSeatOffsetDistZ value="0.000000" />
+      <nMonetaryValue value="50000" />
+      <strModelFlags>440010</strModelFlags>
+      <strHandlingFlags>0</strHandlingFlags>
+      <strDamageFlags>0</strDamageFlags>
+      <AIHandling>AVERAGE</AIHandling>
+      <SubHandlingData>
+        <Item type="CCarHandlingData">
+          <strAdvancedFlags>4000000</strAdvancedFlags>
+        </Item>
+        <Item type="NULL" />
+        <Item type="NULL" />
+      </SubHandlingData>
+    </Item>
+  </HandlingData>
+</CHandlingDataMgr>
