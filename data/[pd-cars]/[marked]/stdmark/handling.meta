@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CHandlingDataMgr>
+  <HandlingData>
+  <Item type="CHandlingData">
+      <handlingName>stdmark</handlingName>
+      <fMass value="1800.000000" />
+      <fInitialDragCoeff value="8.000000" /> <!-- Slightly increased drag to help cap the top speed -->
+      <fPercentSubmerged value="85.000000" />
+      <vecCentreOfMassOffset x="0.000000" y="0.200000" z="-0.100000" /> <!-- Lower center of mass for better stability -->
+      <vecInertiaMultiplier x="1.000000" y="1.200000" z="1.600000" /> <!-- Improved stability -->
+      <fDriveBiasFront value="0.350000" /> <!-- Slightly more power to the front wheels to reduce spinning out -->
+      <nInitialDriveGears value="6" />
+      <fInitialDriveForce value="0.350000" /> <!-- Increased for better acceleration -->
+      <fDriveInertia value="1.000000" />
+      <fClutchChangeRateScaleUpShift value="2.500000" />
+      <fClutchChangeRateScaleDownShift value="2.500000" />
+      <fInitialDriveMaxFlatVel value="241.400000" /> <!-- Top speed set to 150 mph (241.4 km/h) -->
+      <fBrakeForce value="1.200000" />
+      <fBrakeBiasFront value="0.470000" /> <!-- Slightly more front brake bias for stability -->
+      <fHandBrakeForce value="0.700000" /> <!-- Improved handbrake control -->
+      <fSteeringLock value="40.000000" /> <!-- Reduced steering lock to prevent spinning out at high speeds -->
+      <fTractionCurveMax value="2.650000" /> <!-- Increased traction for better grip -->
+      <fTractionCurveMin value="2.350000" /> <!-- Increased minimum traction to prevent loss of control -->
+      <fTractionCurveLateral value="23.500000" />
+      <fTractionSpringDeltaMax value="0.120000" />
+      <fLowSpeedTractionLossMult value="0.800000" /> <!-- Reduced low-speed traction loss to prevent spinning out -->
+      <fCamberStiffnesss value="0.000000" />
+      <fTractionBiasFront value="0.490000" /> <!-- Slightly forward traction bias for stability -->
+      <fTractionLossMult value="0.900000" /> <!-- Reduced overall traction loss -->
+      <fSuspensionForce value="3.000000" /> <!-- Increased suspension force for stability -->
+      <fSuspensionCompDamp value="1.700000" />
+      <fSuspensionReboundDamp value="2.000000" />
+      <fSuspensionUpperLimit value="0.120000" />
+      <fSuspensionLowerLimit value="-0.140000" />
+      <fSuspensionRaise value="-0.010000" />
+      <fSuspensionBiasFront value="0.530000" />
+      <fAntiRollBarForce value="1.000000" /> <!-- Increased anti-roll bar force for better cornering stability -->
+      <fAntiRollBarBiasFront value="0.600000" />
+      <fRollCentreHeightFront value="0.340000" />
+      <fRollCentreHeightRear value="0.350000" />
+      <fCollisionDamageMult value="0.700000" />
+      <fWeaponDamageMult value="1.000000" />
+      <fDeformationDamageMult value="0.700000" />
+      <fEngineDamageMult value="1.500000" />
+      <fPetrolTankVolume value="65.000000" />
+      <fOilVolume value="5.000000" />
+      <fSeatOffsetDistX value="0.000000" />
+      <fSeatOffsetDistY value="-0.100000" />
+      <fSeatOffsetDistZ value="0.000000" />
+      <nMonetaryValue value="35000" />
+      <strModelFlags>440010</strModelFlags>
+      <strHandlingFlags>0</strHandlingFlags>
+      <strDamageFlags>0</strDamageFlags>
+      <AIHandling>SPORTS_CAR</AIHandling>
+      <SubHandlingData>
+        <Item type="CCarHandlingData">
+          <fBackEndPopUpCarImpulseMult value="0.100000" />
+          <fBackEndPopUpBuildingImpulseMult value="0.030000" />
+          <fBackEndPopUpMaxDeltaSpeed value="0.600000" />
+        </Item>
+        <Item type="NULL" />
+        <Item type="NULL" />
+      </SubHandlingData>
+    </Item>
+  </HandlingData>
+</CHandlingDataMgr>
