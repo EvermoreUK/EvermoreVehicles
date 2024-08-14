@@ -108,7 +108,7 @@
   <txdRelationships>
     <Item>
       <parent>vehicles_biker_shared</parent>
-      <child>shinobimne</child>
+      <child>shinobieum</child>
     </Item>
   </txdRelationships>
 
