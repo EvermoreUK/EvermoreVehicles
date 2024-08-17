@@ -3,7 +3,7 @@
   <residentTxd>vehshare</residentTxd>
   <residentAnims />
   <InitDatas>
-	    <Item>
+    <Item>
       <modelName>tailgatermne</modelName>
       <txdName>tailgatermne</txdName>
       <handlingId>tailgatermne</handlingId>
@@ -26,24 +26,24 @@
       <povCameraName>DEFAULT_POV_CAMERA</povCameraName>
       <FirstPersonDriveByIKOffset x="0.000000" y="-0.040000" z="0.000000" />
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="-0.025000" z="0.000000" />
-	  <FirstPersonProjectileDriveByIKOffset x="0.000000" y="0.000000" z="0.000000" />
-	  <FirstPersonProjectileDriveByPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
-	  <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
-	  <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="-0.040000" z="0.000000" />
-	  <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="-0.030000" z="0.020000" />
-	  <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="-0.030000" z="0.020000" />
-	  <FirstPersonMobilePhoneOffset x="0.140000" y="0.285000" z="0.525000" />
+      <FirstPersonProjectileDriveByIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonProjectileDriveByPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="-0.040000" z="0.000000" />
+      <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="-0.030000" z="0.020000" />
+      <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="-0.030000" z="0.020000" />
+      <FirstPersonMobilePhoneOffset x="0.140000" y="0.285000" z="0.525000" />
       <FirstPersonPassengerMobilePhoneOffset x="0.135000" y="0.145000" z="0.435000" />
-	  <FirstPersonMobilePhoneSeatIKOffset>
-		<Item>
-			<Offset x="0.136000" y="0.126000" z="0.455000" />
-			<SeatIndex value="2" />
-		</Item>
-		<Item>
-			<Offset x="0.136000" y="0.126000" z="0.455000" />
-			<SeatIndex value="3" />
-		</Item>
-	  </FirstPersonMobilePhoneSeatIKOffset> 
+      <FirstPersonMobilePhoneSeatIKOffset>
+        <Item>
+          <Offset x="0.136000" y="0.126000" z="0.455000" />
+          <SeatIndex value="2" />
+        </Item>
+        <Item>
+          <Offset x="0.136000" y="0.126000" z="0.455000" />
+          <SeatIndex value="3" />
+        </Item>
+      </FirstPersonMobilePhoneSeatIKOffset> 
       <PovCameraOffset x="0.000000" y="-0.25000" z="0.610000" />
       <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
       <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
@@ -87,11 +87,11 @@
       <frequency value="100" />
       <swankness>SWANKNESS_3</swankness>
       <maxNum value="999" />
-      <flags>FLAG_EXTRAS_ALL FLAG_HAS_LIVERY FLAG_EXTRAS_STRONG FLAG_EXTRAS_ONLY_BREAK_WHEN_DESTROYED FLAG_LAW_ENFORCEMENT FLAG_EMERGENCY_SERVICE FLAG_IS_BULKY </flags>
+      <flags>FLAG_EXTRAS_ALL FLAG_HAS_LIVERY FLAG_EXTRAS_STRONG FLAG_EXTRAS_ONLY_BREAK_WHEN_DESTROYED FLAG_LAW_ENFORCEMENT FLAG_EMERGENCY_SERVICE FLAG_IS_BULKY</flags>
       <type>VEHICLE_TYPE_CAR</type>
       <plateType>VPT_FRONT_AND_BACK_PLATES</plateType>
       <dashboardType>VDT_SUPERGT</dashboardType>
-      <vehicleClass>VC_SEDAN</vehicleClass>
+      <vehicleClass>VC_EMERGENCY</vehicleClass> <!-- Changed from VC_SEDAN to VC_EMERGENCY -->
       <wheelType>VWT_HIEND</wheelType>
       <trailers />
       <additionalTrailers />
@@ -114,17 +114,16 @@
       <buoyancySphereSizeScale value="1.000000" />
       <pOverrideRagdollThreshold type="NULL" />
       <maxSteeringWheelAngle value="109.0" />
-	  <firstPersonDrivebyData>
+      <firstPersonDrivebyData>
         <Item>STD_FRONT_LEFT</Item>
         <Item>STD_FRONT_RIGHT</Item>
       </firstPersonDrivebyData>
     </Item>
   </InitDatas>
   <txdRelationships>
-      <Item>
+    <Item>
       <parent>vehicles_supergt_w1_interior</parent>
       <child>tailgatermne</child>
     </Item>
   </txdRelationships>
 </CVehicleModelInfo__InitDataList>
-  
