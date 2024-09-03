@@ -2,7 +2,7 @@
 <CHandlingDataMgr>
   <HandlingData>
     <Item type="CHandlingData">
-      <handlingName>umformentor</handlingName>
+      <handlingName>unformentor</handlingName>
     <fMass value="2300.0" />
 			<fInitialDragCoeff value="6.0" />
 			<fDownforceModifier value="0.0" />
