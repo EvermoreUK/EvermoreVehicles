@@ -14,7 +14,7 @@
       <nInitialDriveGears value="6" />
       <fInitialDriveForce value="1.000000" /> <!-- Increased drive force for better acceleration -->
       <fDriveInertia value="0.700000" /> <!-- Adjusted drive inertia for better acceleration response -->
-      <fClutchChangeRateScaleUpShift value="6.0" /> <!-- Improved shifting responsiveness -->
+      <fClutchChangeRateScaleUpShift value="3.000000" /> <!-- Improved shifting responsiveness -->
       <fClutchChangeRateScaleDownShift value="5.500000" />
       <fInitialDriveMaxFlatVel value="67.056000" /> <!-- Top speed set to 150 MPH -->
       <fReverseGearRatio value="1.500000" /> <!-- Reverse speed adjusted to realistic value -->
