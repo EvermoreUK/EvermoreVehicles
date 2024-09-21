@@ -5,7 +5,7 @@
   <HandlingData>
     <Item type="CHandlingData">
       <handlingName>evork</handlingName>
-      <fMass value="1800.000000" /> <!-- Increased mass for enhanced stability -->
+      <fMass value="2000.000000" /> <!-- Increased mass for enhanced stability -->
       <fInitialDragCoeff value="6.500000" /> <!-- Reduced drag coefficient -->
       <fPercentSubmerged value="85.000000" />
       <vecCentreOfMassOffset x="0.000000" y="0.000000" z="-0.500000" /> <!-- Lowered center of mass significantly -->
@@ -14,7 +14,7 @@
       <nInitialDriveGears value="6" />
       <fInitialDriveForce value="1.000000" /> <!-- Increased drive force for better acceleration -->
       <fDriveInertia value="0.700000" /> <!-- Adjusted drive inertia for better acceleration response -->
-      <fClutchChangeRateScaleUpShift value="5.500000" /> <!-- Improved shifting responsiveness -->
+      <fClutchChangeRateScaleUpShift value="5.000000" /> <!-- Improved shifting responsiveness -->
       <fClutchChangeRateScaleDownShift value="5.500000" />
       <fInitialDriveMaxFlatVel value="67.056000" /> <!-- Top speed set to 150 MPH -->
       <fReverseGearRatio value="1.500000" /> <!-- Reverse speed adjusted to realistic value -->
